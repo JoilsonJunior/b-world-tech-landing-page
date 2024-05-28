@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+    background: #0C1323;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    transition: .8s;
+}
+
+
+nav.navmenu {
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(13px);
+    border-bottom: 1px solid #3898ec9c;
+}
+
+nav.navmenu a {
+    color: rgba(224, 224, 224, 0.92);
+}
+
+.logo {
+    flex: 20%;
+    text-align: center;
+}
+
+.logo img {
+    width: 40%;
+}
+
+
+.menu {
+    flex: 70%;
+    margin-right: 90px;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    font-size: 15px;
+    color: rgb(111 135 160 / 92%);
+    text-decoration: none;
+   padding: 25px 16px;
+   box-sizing: 6px;
+   font-weight: 500;  
+}
+
+.menu a:hover {
+    color: white;
+    transition: color 1s ease;  
+}
+
+#botao {
+    
+    color: white;
+    background-color: #121f2d;
+    padding:  10px 30px;
+    border-radius: 50px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    background-color: #3898ec;
+    transition: background-color 2s ease;
+}
+
+.header {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+
+
+}
+
+.headline{
+   font-size: 40px;
+    flex: 40%;
+    margin-left: 10%;
+    color: white;
+}
+
+.headline h1{
+    line-height: 1;
+}
+
+.headline p {
+    font-size: 20px;
+    color: rgb(111 135 160 / 92%);
+    margin-top: -20px;
+}
+
+.imagem {  
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+#campo {
+    background-color: #0E2033;
+    padding: 15px 100px;
+    color: white;
+    border-radius: 25px;
+    border: 1 solid #7272726c;
+    margin-top: 30px;
+}
+
+#enviar{
+  
+    padding: 15px 70px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(to left, #3898ec, #0C1323);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    
+
+  
+}
+
+.blur {
+    position: absolute;
+    box-shadow: 0 0 1000px 80px #3898ec;
+    z-index: -100;
+}
+
+
+.red1 {
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 50%;
+    box-shadow: 0 0 1000px 80px #3898ec;
+    z-index: -100;
+
+    
+}
+
+
+section {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 600px;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+    
+}
+
+section h2 {
+   color: white;
+   width: 100%;
+   font-size: 40px;
+     margin: 0;
+ 
+
+} 
+
+.servicos{
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 40px;
+    margin: 1%;
+    color: rgb(111 135 160 / 92%);
+    border: 1px solid #3898ec;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: #002e57 ;
+    transition: background 1s ease;
+}
+
+.card h3{
+    color: rgb(206, 206, 206);
+    
+}
+
+
+footer {
+    margin-top: 300px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right,#021f3b,#164979 ,#3898ec);
+}
+
+.rodape {
+    padding: 100px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section.sobre {
+    
+width: 90%;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.imagem_sobre {
+    flex: 60%;
+    margin-right: 5%;
+}
+
+.imagem_sobre img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.conteudo {
+    flex: 40%;
+    margin-left: 5%;
+    color: rgb(111 135 160 / 92%);
+    text-align: left;
+}
+
+section.sobre {
+    margin-top: -180px;
+    flex-flow: row-reverse;
+    text-align: center;
+    justify-content: center;
+}
+
+.copy {
+    background: #17181a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

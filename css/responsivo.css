@@ -1,0 +1,99 @@
+@media screen and (max-width:1005px) {
+
+.menu {
+display: none;
+position: relative;
+}
+
+.logo {
+margin: 0;
+width: 15px;
+align-items: center;
+display: block;
+}
+
+.logo img {
+    width: 35%;
+
+}
+
+
+.navbar {
+    position: relative;
+}
+
+.header {
+    margin-top: -10px;
+   
+
+}
+
+.headline {
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+}
+
+.headline h1 {
+    font-size: 40px;
+}
+
+.headline p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagem{
+    flex: 100%;
+    max-width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex {
+    flex-direction: column; 
+}
+
+.imagem_sobre {
+    flex: 100%; 
+    margin-right: 0; 
+    margin-bottom:  10px; 
+}
+
+.conteudo {
+    flex: 100%; 
+    margin-left: 0; 
+    text-align: center;
+
+}
+
+
+nav.navmenu {
+    display: none;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+section h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+section.servicos1 {
+    margin-top: 400px;
+}
+
+.servicos {
+    margin-top: 50px;
+}
+
+.copy {
+    bottom: 0;
+}
+
+}
